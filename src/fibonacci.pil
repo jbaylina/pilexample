@@ -8,3 +8,4 @@ namespace Fibonacci(%N);
     (1-ISLAST) * (aLast' - (aBeforeLast + aLast)) = 0;
 
     public out = aLast(%N-1);
+    ISLAST * (aLast - :out) = 0;
